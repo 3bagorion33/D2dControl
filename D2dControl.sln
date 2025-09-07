@@ -1,11 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.24720.0
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33712.159
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "D2dControl", "D2dControl\D2dControl.csproj", "{F3ED9CEF-8E61-4B40-8E47-DE9A97B10301}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sample", "Sample\Sample.csproj", "{059C082E-84E6-4027-8C04-FC41A3EE320E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleWF", "SampleWF\SampleWF.csproj", "{D21ABA88-345B-42CC-8538-B623EC51ABEC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,8 +23,15 @@ Global
 		{059C082E-84E6-4027-8C04-FC41A3EE320E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{059C082E-84E6-4027-8C04-FC41A3EE320E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{059C082E-84E6-4027-8C04-FC41A3EE320E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D21ABA88-345B-42CC-8538-B623EC51ABEC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D21ABA88-345B-42CC-8538-B623EC51ABEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D21ABA88-345B-42CC-8538-B623EC51ABEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D21ABA88-345B-42CC-8538-B623EC51ABEC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {95AE2A78-8985-4EF1-A9D6-4ED92BA53E22}
 	EndGlobalSection
 EndGlobal

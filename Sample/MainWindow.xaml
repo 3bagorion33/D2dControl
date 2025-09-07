@@ -7,7 +7,8 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="350" Width="525">
     <Grid>
-        <local:SampleControl x:Name="sampleControl" />
+        <local:SampleControl x:Name="sampleControl" Margin="72,0,0,0" />
         <Label x:Name="label" Content="{Binding ElementName=sampleControl,Path=Fps}" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top"/>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="10,55,0,0" VerticalAlignment="Top"/>
     </Grid>
 </Window>
